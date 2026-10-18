@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/floating_root"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bg_floating"
+    android:padding="12dp"
+    android:layoutDirection="rtl"
+    android:minWidth="280dp">
+
+    <!-- Top floating bar -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:src="@drawable/ic_launcher"
+            android:contentDescription="Icon" />
+
+        <TextView
+            android:id="@+id/tv_floating_track"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="שיר נוכחי"
+            android:textColor="#1DB954"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:singleLine="true"
+            android:paddingStart="6dp"
+            android:paddingEnd="6dp" />
+
+        <Button
+            android:id="@+id/btn_floating_toggle_orig"
+            android:layout_width="wrap_content"
+            android:layout_height="26dp"
+            android:text="מקורי"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/btn_secondary"
+            android:textSize="10sp"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:layout_marginEnd="4dp" />
+
+        <Button
+            android:id="@+id/btn_floating_close"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:text="✕"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/btn_secondary"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <!-- Hebrew Active Line -->
+    <TextView
+        android:id="@+id/tv_floating_hebrew"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="תרגום עברי של השורה…"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:lineSpacingExtra="2dp" />
+
+    <!-- Optional Original Line -->
+    <TextView
+        android:id="@+id/tv_floating_original"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Original English line"
+        android:textColor="#888888"
+        android:textSize="12sp"
+        android:visibility="gone" />
+
+</LinearLayout>

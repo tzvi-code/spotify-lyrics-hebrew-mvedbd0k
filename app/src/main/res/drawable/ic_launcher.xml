@@ -1,0 +1,29 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+    <!-- Dark circular/squircle background -->
+    <path
+        android:fillColor="#121212"
+        android:pathData="M16,0 L80,0 A16,16 0 0,1 96,16 L96,80 A16,16 0 0,1 80,96 L16,96 A16,16 0 0,1 0,80 L0,16 A16,16 0 0,1 16,0 Z" />
+    <!-- Outer Spotify-like curved wave in green -->
+    <path
+        android:fillColor="#1DB954"
+        android:pathData="M24,38 C40,32 58,34 72,41 C74,42 75,45 74,47 C73,49 70,50 68,49 C56,43 41,41 27,46 C24,47 22,45 21,43 C20,40 22,38 24,38 Z" />
+    <!-- Middle wave -->
+    <path
+        android:fillColor="#1DB954"
+        android:pathData="M28,50 C40,46 54,47 66,53 C68,54 69,57 67,59 C66,61 63,62 61,60 C51,55 39,54 29,58 C27,59 24,57 23,55 C22,53 25,51 28,50 Z" />
+    <!-- Lower wave -->
+    <path
+        android:fillColor="#1DB954"
+        android:pathData="M31,63 C41,60 51,61 61,66 C63,67 64,70 62,72 C61,74 58,74 56,73 C48,69 39,68 31,71 C29,72 26,70 25,68 C24,66 28,64 31,63 Z" />
+    <!-- Translation symbol / 'A/א' badge in top right -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M70,16 L86,16 A4,4 0 0,1 90,20 L90,36 A4,4 0 0,1 86,40 L70,40 A4,4 0 0,1 66,36 L66,20 A4,4 0 0,1 70,16 Z" />
+    <path
+        android:fillColor="#121212"
+        android:pathData="M74,34 L77,24 L79,24 L82,34 L80,34 L79.3,31.5 L76.7,31.5 L76,34 Z M77.2,29.5 L78.8,29.5 L78,26.5 Z" />
+</vector>

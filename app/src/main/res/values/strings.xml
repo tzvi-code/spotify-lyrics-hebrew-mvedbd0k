@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Spotify Lyrics בעברית</string>
+    <string name="service_name">זיהוי נגינת Spotify</string>
+    <string name="settings_title">הגדרות</string>
+    <string name="status_listening">מאזין ל-Spotify ברקע…</string>
+    <string name="status_connected">מזוהה ומסונכרן עם Spotify</string>
+    <string name="status_demo">מצב הדגמה פעיל</string>
+    <string name="status_paused">מושהה</string>
+    <string name="status_no_lyrics">אין מילים זמינות לשיר זה</string>
+    <string name="btn_show_original">הצג מילים מקוריות</string>
+    <string name="btn_hide_original">הסתר מילים מקוריות</string>
+    <string name="btn_floating_on">פתח חלון צף</string>
+    <string name="btn_floating_off">סגור חלון צף</string>
+    <string name="btn_autoscroll_on">גלילה אוטומטית: פעילה</string>
+    <string name="btn_autoscroll_off">גלילה אוטומטית: כבויה</string>
+    <string name="permission_banner">נדרשת גישה להתראות כדי לזהות שירים מ-Spotify</string>
+    <string name="btn_grant_perm">הפעל הרשאה</string>
+    <string name="demo_switch_label">הפעל הדגמה מקומית</string>
+    <string name="track_sample_title">Viva La Vida</string>
+    <string name="track_sample_artist">Coldplay</string>
+    <string name="settings_section_display">תצוגה ותרגום</string>
+    <string name="settings_section_permissions">הרשאות מערכת</string>
+    <string name="settings_font_size">גודל גופן המילים</string>
+    <string name="settings_show_original_toggle">הצג מילים מקוריות מתחת לתרגום</string>
+    <string name="settings_autoscroll">גלילה אוטומטית לפי מיקום הניגון</string>
+    <string name="settings_floating_window">הצגת מילים בחלון צף מעל Spotify</string>
+    <string name="settings_notification_access">הרשאת זיהוי התראות מדיה</string>
+    <string name="settings_overlay_access">הרשאת הצגה מעל יישומים</string>
+    <string name="settings_about">מידע וזכויות יוצרים</string>
+    <string name="settings_about_desc">האפליקציה מתרגמת שורות מילים לעברית בזמן אמת ומסנכרנת את השורה הפעילה. כל זכויות המילים והמוזיקה שייכות ליוצריהן המקוריים.</string>
+    <string name="overlay_perm_required">יש לאשר הרשאת חלון צף בהגדרות המערכת</string>
+</resources>
